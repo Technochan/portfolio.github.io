@@ -39,18 +39,19 @@ body::before {
 
 @media (max-width: 994px) {
   .ownimg{
-      left:40%;
-      top: 380px;
-      width: 200px;
+    left:35%;
+    top: 30px;
+      width: 250px;
   }
 }
 
-@media (max-width: 430px) {
+@media (max-width: 450px) {
   .ownimg{
-      left:26%;
-      top: 450px;
+      left:28%;
+      top: 30px;
       width: 200px;
   }
+
 }
 
 
