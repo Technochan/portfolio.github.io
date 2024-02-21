@@ -150,23 +150,3 @@
 
 })(jQuery);
 
-// Get reference to the image element
-const homeImage = document.getElementById('homeImage');
-
-// Get all navigation links
-const navLinks = document.querySelectorAll('.nav-menu ul li a');
-
-// Add click event listener to each navigation link
-navLinks.forEach(link => {
-  link.addEventListener('click', () => {
-    // Check if the link is for the home section
-    const isHome = link.getAttribute('href') === '#header';
-
-    // If it's the home section, display the image; otherwise, hide it
-    if (isHome) {
-      homeImage.style.display = 'block';
-    } else {
-      homeImage.style.display = 'none';
-    }
-  });
-});
